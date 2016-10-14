@@ -3,12 +3,21 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ html {
+ 		height: 30%;
+	margin: 20% auto;
+	padding: 0;
+	display: table;
+ }
 
 body {
-	margin-top: 210px;
-	margin-bottom: 50px;
-	background: black;
-	    opacity: 0.8;
+	
+	min-height: 60%;
+	margin: 40% auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	    opacity: 0.90;
 }
 
 .full {
