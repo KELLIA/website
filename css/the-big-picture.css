@@ -17,11 +17,11 @@ body {
 	padding: 0;
 	display: table-cell;
 	vertical-align: middle;
-	    opacity: 0.95;
+	    opacity: 0.99;
 }
 
 .full {
-  background: url(../img/top.jpg) Black no-repeat center center fixed; 
+  background: url(../img/top.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

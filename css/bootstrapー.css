@@ -72,7 +72,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background: #f00;
+  background: #ff0;
   color: #000;
 }
 small {
@@ -1086,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
@@ -1101,7 +1101,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #1e29a8;
+  color: #4582ec;
   text-decoration: none;
 }
 a:hover,
@@ -1190,7 +1190,7 @@ h6,
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.1;
-  color: inherit;
+  color: white;
 }
 h1 small,
 h2 small,
@@ -1218,7 +1218,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #b3b3b3;
+  color: white;
 }
 h1,
 .h1,
@@ -1292,6 +1292,7 @@ h6,
 }
 p {
   margin: 0 0 11px;
+  color: LightGrey;
 }
 .lead {
   margin-bottom: 22px;
@@ -3559,7 +3560,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #1e29a8;
+  color: #333333;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -4512,7 +4513,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #333333;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #1e29a8;
+  color: #4582ec;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4553,7 +4554,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #1e29a8;
+    color: #4582ec;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4608,7 +4609,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #333333;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #1e29a8;
+  color: #333333;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4655,7 +4656,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #dddddd;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #1e29a8;
+    color: #333333;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5994,7 +5995,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "arial unicode ms";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6112,7 +6113,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: arial;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6822,14 +6823,14 @@ legend {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pager a {
-  color: #1e29a8;
+  color: #333333;
 }
 .pager a:hover {
   border-color: transparent;
   color: #fff;
 }
 .pager .disabled a {
-  border-color: #1e29a8;
+  border-color: #dddddd;
 }
 .close {
   color: #fff;
