@@ -1180,18 +1180,23 @@ h2,
 h3,
 h4,
 h5,
-h6,
+,
 .h1,
 .h2,
 .h3,
 .h4,
 .h5,
-.h6 {
+. {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.1;
   color: inherit;
 }
+h6{
+font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  line-height: 1.1;
+  color: inherit;}
 h1 small,
 h2 small,
 h3 small,
@@ -1256,14 +1261,14 @@ h4 small,
 .h4 small,
 h5 small,
 .h5 small,
-h6 small,
-.h6 small,
+ small,
+. small,
 h4 .small,
 .h4 .small,
 h5 .small,
 .h5 .small,
-h6 .small,
-.h6 .small {
+ .small,
+. .small {
   font-size: 75%;
 }
 h1,
@@ -1288,7 +1293,7 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 14px;
+  font-size: 40px;
 }
 p {
   margin: 0 0 11px;
